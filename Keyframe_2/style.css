@@ -49,16 +49,19 @@ body{
 
 }
 .chatbot__loading:nth-child(1){
-    animation: bolinhas 1.5s, ease-in-out, infinite;
+    animation: bolinhas 1.5s, ease-in-out;
+    animation-iteration-count: infinite;
   
 }
 .chatbot__loading:nth-child(2){
-    animation: bolinhas 1.5s, ease-in-out, infinite;
+    animation: bolinhas 1.5s, ease-in-out;
     animation-delay: 0.2s;
+    animation-iteration-count: infinite;
 }
 .chatbot__loading:nth-child(3){
-    animation: bolinhas 1.5s, ease-in-out, alternate-reverse;
+    animation: bolinhas 1.5s, ease-in-out;
     animation-delay: 0.4s;
+    animation-iteration-count: infinite;
     
 }
 @keyframes bolinhas {
